@@ -1,0 +1,20 @@
+.header-cont {
+  height: 5vh;
+  display: flex;
+  background-color: #313131;
+  border: 1px solid black;
+  margin: 1% 0 0 0;
+}
+.list-cont {
+  color: white;
+  margin: 0% 0 0 46%;
+  display: flex;
+}
+.buttons {
+  color: white !important;
+  font-size: 12px !important;
+}
+.searchIcon {
+  height: 3vh;
+  margin: 1.4% 0px 0 4px;
+}
