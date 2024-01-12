@@ -1,0 +1,23 @@
+.solution-cont {
+  display: flex;
+  background: #fbfbfd;
+  margin: 2% 0 0 0;
+}
+.problem {
+  line-height: 50px !important;
+  left: 24%;
+  width: 63%;
+  position: absolute;
+}
+.consulting {
+  letter-spacing: 4px !important;
+  left: 39%;
+  margin: 7% 0 0 0 !important;
+  position: absolute;
+}
+.about {
+  left: 22%;
+  margin: 11%;
+  position: absolute;
+  width: 41%;
+}

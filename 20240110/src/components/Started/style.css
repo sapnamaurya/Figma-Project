@@ -1,8 +1,10 @@
 .started-cont {
+  background: #fbfbfd;
+  height: 88vh;
   display: flex;
 }
 .text-cont {
-  margin-top: 20%;
+  margin: 17% 0 0 6%;
   height: 13vh;
 }
 .get-started {
