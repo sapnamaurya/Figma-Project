@@ -10,9 +10,11 @@
   height: 6vh;
   margin: 3%auto 0;
   border: 2px solid black;
-  width: 44%;
+  width: 42%;
 }
 .started-text {
   font-weight: bold !important;
-  margin: 6% 11% !important;
+  margin: 5% 7% !important;
+  display: flex;
+  letter-spacing: 1px !important;
 }
