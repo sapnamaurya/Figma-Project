@@ -1,0 +1,18 @@
+.started-cont {
+  display: flex;
+}
+.text-cont {
+  margin-top: 20%;
+  height: 13vh;
+}
+.get-started {
+  box-shadow: -5px 6px 2px 0px black;
+  height: 6vh;
+  margin: 3%auto 0;
+  border: 2px solid black;
+  width: 44%;
+}
+.started-text {
+  font-weight: bold !important;
+  margin: 6% 11% !important;
+}
