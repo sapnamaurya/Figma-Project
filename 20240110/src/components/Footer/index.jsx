@@ -272,15 +272,21 @@ function Footer() {
             </List>
           </Box>{" "}
         </Box>
-        <Box className="sec-1">
-          <List>
-            <ListItemText primary="Start" />
+        <hr />
+        <Box className="basic-footer">
+          <List className="basic-footer">
+            <ListItemText primary="Copyright 2023 Fresh Solution LLC.All right reserved." />
 
-            <ListItemText primary="Thrive" />
+            <ListItemText primary="Privacy Policy" />
+            <ListItemText primary="Terms of Use" />
 
-            <ListItemText primary="Our Values" />
+            <ListItemText primary="Sales and Refunds" />
+
+            <ListItemText primary="Legal" />
+            <ListItemText primary="Site Map" />
+            <ListItemText primary="United Stae" />
           </List>
-        </Box>{" "}
+        </Box>
       </Box>
     </>
   );

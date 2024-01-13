@@ -11,3 +11,6 @@
 .sec-5 {
   width: 22%;
 }
+.basic-footer {
+  display: flex;
+}
