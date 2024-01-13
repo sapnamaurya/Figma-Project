@@ -1,0 +1,26 @@
+.chnages-cont {
+  text-align: center;
+  margin-top: 2%;
+}
+.portion-1 {
+  width: 50%;
+}
+.portion-2 {
+  width: 50%;
+}
+.pic1 {
+  margin: 9% 0 0 0;
+  height: 62vh;
+}
+.pic2 {
+  height: 86vh;
+}
+.connect {
+  padding: 0.5%;
+
+  border: 1px solid;
+  box-shadow: -5px 6px 2px 0px black;
+  height: 4.5vh;
+  margin: 25%auto 2%;
+  width: 33%;
+}

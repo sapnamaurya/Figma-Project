@@ -17,7 +17,7 @@
 }
 .about {
   left: 22%;
-  margin: 11%;
+  margin: 11% !important;
   position: absolute;
   width: 41%;
 }
