@@ -1,22 +1,17 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Header from "./components/Header";
-import Started from "./components/Started";
-import Solution from "./components/Solution";
-import About from "./components/About";
+import Project from "./pages/Project";
 import Changes from "./components/Changes";
+
 function App() {
   return (
     <div>
-      <Header />
-      <Started />
-      <Solution />
-      <About />
-      <Changes />
       <BrowserRouter>
         <Routes>
-          <Route />
+          <Route path="/project" element={<Project />} />
+          <Route path="/" element={<Project />} />
+          {/* <Route path="/meet" element={<Changes />} /> */}
         </Routes>
       </BrowserRouter>
     </div>

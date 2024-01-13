@@ -1,0 +1,43 @@
+.steps-cont {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  justify-content: space-between;
+  height: 105vh;
+}
+.start-cont,
+.grow-cont,
+.thrive-cont {
+  width: 31%;
+}
+.start {
+  margin: 33% 0 0 0;
+  text-align: center;
+  padding: 11px 30px;
+  background-color: #fbfbfb;
+}
+.start-img {
+  position: absolute;
+  margin: 2.5% 0 0 0;
+}
+.grow {
+  margin: -36% 0 0 0;
+  text-align: center;
+  padding: 11px 30px;
+  background-color: #fbfbfb;
+}
+.grow-img {
+  bottom: 80px;
+  position: relative;
+  margin: 0% 0 0 13%;
+}
+.thrive-img {
+  position: relative;
+  bottom: 29%;
+}
+.thrive {
+  margin: -70% 0 0 0;
+  text-align: center;
+  padding: 11px 30px;
+  background-color: #fbfbfb;
+}

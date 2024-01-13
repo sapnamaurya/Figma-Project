@@ -4,10 +4,18 @@ import { Box, Typography } from "@mui/material";
 import pic1 from "../../assets/images/pic2.png";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import pic2 from "../../assets/images/pic1.png";
-function Changes() {
+function Changes(props) {
+  const { refren } = props || {};
+  //   console.log(props);
   return (
     <>
-      <Box className="chnages-cont">
+      <Box
+        className="chnages-cont"
+        // ref={window.scrollTo({
+        //   top: refren?.current?.offsetTop,
+        //   behaviour: "smooth",
+        // })}
+      >
         <Typography
           sx={{ fontSize: "h4.fontSize", color: "orange", fontWeight: "bold" }}
         >

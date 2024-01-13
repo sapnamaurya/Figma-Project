@@ -1,9 +1,22 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./style.css";
 import { Box, Button } from "@mui/material";
 import logo from "../../assets/images/small logo.png";
 import SearchIcon from "@mui/icons-material/Search";
-function Header() {
+import { useNavigate } from "react-router-dom";
+function Header(props) {
+  const { Meet } = props || {};
+  const navigate = useNavigate();
+  // const letMeet = useRef(null);
+  const handleMeetButton = () => {
+    // console.log(eleRef);
+    // Meet(eleRef);
+    // window.scrollTo({
+    //   top: reference.current.offsetTop,
+    //   behaviour: "smooth",
+    // });
+    // navigate("/meet");
+  };
   return (
     <>
       <Box className="header-cont">
@@ -22,8 +35,16 @@ function Header() {
             Our Values
           </Button>
           <Button variant="text" className="buttons">
-            let's meet
+            Let's meet
           </Button>
+          {/* <Button
+            variant="text"
+            className="buttons"
+            onClick={() => handleMeetButton(letMeet)}
+            ref={letMeet}
+          >
+            Let's meet
+          </Button> */}
           <SearchIcon className="searchIcon" />
         </Box>
       </Box>
