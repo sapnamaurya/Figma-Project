@@ -1,13 +1,19 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./style.css";
 import { Box, List, ListItem, ListItemText, Typography } from "@mui/material";
 import NorthIcon from "@mui/icons-material/North";
 
 function Footer() {
+  const [isVisible, setIsVisible] = useState(false);
   const listenToScroll = () => {
-    let height = 250;
+    let height = 200;
     const winScroll =
       document.body.scrollTop || document.documentElement.scrollTop;
+    if (winScroll > height) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
   };
   useEffect(() => {
     window.addEventListener("scroll", listenToScroll);
@@ -287,21 +293,26 @@ function Footer() {
         <hr />
         <Box className="basic-footer">
           <List className="basic-footer">
-            <ListItemText primary="Copyright 2023 Fresh Solution LLC.All right reserved." />
+            <ListItemText
+              className="copyright"
+              primary="Copyright 2023 Fresh Solution LLC.All right reserved."
+            />
 
-            <ListItemText primary="Privacy Policy" />
-            <ListItemText primary="Terms of Use" />
+            <ListItemText className="title1" primary="Privacy Policy" />
+            <ListItemText className="title" primary="Terms of Use" />
 
-            <ListItemText primary="Sales and Refunds" />
+            <ListItemText className="title" primary="Sales and Refunds" />
 
-            <ListItemText primary="Legal" />
-            <ListItemText primary="Site Map" />
-            <ListItemText primary="United Stae" />
+            <ListItemText className="title" primary="Legal" />
+            <ListItemText className="title" primary="Site Map" />
+            <ListItemText className="title" primary="United Stae" />
           </List>
         </Box>
-        <Box onClick={handleScrollTo} className="back-top">
-          <NorthIcon />
-        </Box>
+        {isVisible && (
+          <Box onClick={handleScrollTo} className="back-top">
+            <NorthIcon />
+          </Box>
+        )}
       </Box>
     </>
   );

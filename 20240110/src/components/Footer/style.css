@@ -1,7 +1,7 @@
 .footer-cont {
   padding: 2% 6%;
   display: flex;
-  width: 88%;
+  width: 91;
   margin: auto;
 }
 .sec-1,
@@ -13,6 +13,7 @@
 }
 .basic-footer {
   display: flex;
+  width: 92%;
 }
 .back-top {
   right: 0.5%;
@@ -23,4 +24,18 @@
   border-radius: 50px;
   height: 3vh;
   padding: 1%;
+}
+.copyright {
+  margin-left: 10%;
+  width: 100%;
+  color: #717174;
+}
+.title1 {
+  width: 48%;
+  margin-left: 10%;
+  color: #717174;
+}
+.title {
+  width: 56%;
+  color: #717174;
 }
