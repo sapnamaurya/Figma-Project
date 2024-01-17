@@ -6,9 +6,12 @@
   height: 105vh;
 }
 .start-cont,
-.grow-cont,
+.grow-cont {
+  margin-right: 2%;
+  width: 35%;
+}
 .thrive-cont {
-  width: 31%;
+  width: 35%;
 }
 .start {
   margin: 33% 0 0 0;
@@ -33,10 +36,11 @@
 }
 .thrive-img {
   position: relative;
-  bottom: 29%;
+
+  bottom: 27%;
 }
 .thrive {
-  margin: -70% 0 0 0;
+  margin: -58% 0 0 0;
   text-align: center;
   padding: 11px 30px;
   background-color: #fbfbfb;

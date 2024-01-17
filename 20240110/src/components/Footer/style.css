@@ -1,7 +1,7 @@
 .footer-cont {
   padding: 2% 6%;
   display: flex;
-  width: 90%;
+  width: 88%;
   margin: auto;
 }
 .sec-1,
@@ -13,4 +13,14 @@
 }
 .basic-footer {
   display: flex;
+}
+.back-top {
+  right: 0.5%;
+  top: 91%;
+  position: fixed;
+  color: white;
+  background-image: linear-gradient(45deg, #0c0c0c, #957c7c);
+  border-radius: 50px;
+  height: 3vh;
+  padding: 1%;
 }

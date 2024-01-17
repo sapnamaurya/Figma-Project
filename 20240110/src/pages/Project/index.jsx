@@ -30,11 +30,12 @@ function Project() {
         <Solution />
         <About />
         <Changes />
-        {/* <Changes refren={refData} /> */}
+
         <CaseStudies />
         <Apporach />
         <Steps />
         <Footer />
+        {/* <Changes refren={refData} /> */}
       </Box>
     </>
   );

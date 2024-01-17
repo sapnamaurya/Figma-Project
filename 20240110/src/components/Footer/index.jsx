@@ -1,8 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./style.css";
 import { Box, List, ListItem, ListItemText, Typography } from "@mui/material";
+import NorthIcon from "@mui/icons-material/North";
 
 function Footer() {
+  const listenToScroll = () => {
+    let height = 250;
+    const winScroll =
+      document.body.scrollTop || document.documentElement.scrollTop;
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", listenToScroll);
+  }, []);
+  const handleScrollTo = () => {
+    window.scrollTo({ top: 0, left: 100, behavior: "smooth" });
+  };
   return (
     <>
       <Box>
@@ -286,6 +298,9 @@ function Footer() {
             <ListItemText primary="Site Map" />
             <ListItemText primary="United Stae" />
           </List>
+        </Box>
+        <Box onClick={handleScrollTo} className="back-top">
+          <NorthIcon />
         </Box>
       </Box>
     </>
