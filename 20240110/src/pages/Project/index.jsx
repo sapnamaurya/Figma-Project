@@ -12,19 +12,9 @@ import Steps from "../../components/Steps";
 import Footer from "../../components/Footer";
 
 function Project() {
-  //   const [refData, setRefData] = useState();
-  //   const meet = (reference) => {
-  //     console.log("----", reference);
-  //     setRefData(reference);
-  //     // window.scrollTo({
-  //     //   top: reference.current.offsetTop,
-  //     //   behaviour: "smooth",
-  //     // });
-  //   };
   return (
     <>
       <Box>
-        {/* <Header Meet={meet} /> */}
         <Header />
         <Started />
         <Solution />
@@ -35,7 +25,6 @@ function Project() {
         <Apporach />
         <Steps />
         <Footer />
-        {/* <Changes refren={refData} /> */}
       </Box>
     </>
   );

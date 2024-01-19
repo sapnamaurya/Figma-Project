@@ -50,14 +50,7 @@ function Header() {
           >
             Let's meet
           </Button>
-          {/* <Button
-            variant="text"
-            className="buttons"
-            onClick={() => handleMeetButton(letMeet)}
-            ref={letMeet}
-          >
-            Let's meet
-          </Button> */}
+
           <SearchIcon className="searchIcon" />
         </Box>
       </Box>

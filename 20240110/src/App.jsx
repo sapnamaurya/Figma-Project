@@ -18,7 +18,6 @@ function App() {
           <Route path="/thrive" element={<Thrive />} />
           <Route path="/lets-meet" element={<LetsMeet />} />
           <Route path="/" element={<Project />} />
-          {/* <Route path="/meet" element={<Changes />} /> */}
         </Routes>
       </BrowserRouter>
     </div>
