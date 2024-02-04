@@ -13,10 +13,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/project" element={<Project />} />
-          <Route path="/start" element={<Start />} />
+          {/* <Route path="/start" element={<Start />} />
           <Route path="/grow" element={<Grow />} />
           <Route path="/thrive" element={<Thrive />} />
-          <Route path="/lets-meet" element={<LetsMeet />} />
+          <Route path="/lets-meet" element={<LetsMeet />} /> */}
           <Route path="/" element={<Project />} />
         </Routes>
       </BrowserRouter>

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./style.css";
 import { Box, List, ListItem, ListItemText, Typography } from "@mui/material";
 import NorthIcon from "@mui/icons-material/North";
+import { Link } from "react-scroll";
 
 function Footer() {
   const [isVisible, setIsVisible] = useState(false);
@@ -38,17 +39,51 @@ function Footer() {
               <ListItem
                 sx={{ fontWeight: "bold", color: "#4e4e51", padding: "0px" }}
               >
-                <ListItemText primary="Start" />
+                <Link
+                  className="topic cursor-pointer heading"
+                  activeClass="active"
+                  to="start"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                >
+                  <Typography className="topic cursor-pointer">
+                    Start
+                  </Typography>
+                </Link>
               </ListItem>
               <ListItem
                 sx={{ fontWeight: "bold", color: "#4e4e51", padding: "0px" }}
               >
-                <ListItemText primary="Grow" />
+                <Link
+                  className="topic cursor-pointer heading"
+                  activeClass="active"
+                  to="grow"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                >
+                  <Typography className="topic cursor-pointer">Grow</Typography>
+                </Link>
               </ListItem>
               <ListItem
                 sx={{ fontWeight: "bold", color: "#4e4e51", padding: "0px" }}
               >
-                <ListItemText primary="Thrive" />
+                <Link
+                  className="topic cursor-pointer heading"
+                  activeClass="active"
+                  to="thrive"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                >
+                  <Typography className="topic cursor-pointer">
+                    Thrive
+                  </Typography>
+                </Link>
               </ListItem>
               <ListItem
                 sx={{ fontWeight: "bold", color: "#4e4e51", padding: "0px" }}
@@ -265,7 +300,19 @@ function Footer() {
               <ListItem
                 sx={{ fontWeight: "bold", color: "#4e4e51", padding: "0px" }}
               >
-                <ListItemText primary="Education" />
+                <Link
+                  className="topic cursor-pointer heading"
+                  activeClass="active"
+                  to="education"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                >
+                  <Typography className="topic cursor-pointer">
+                    Education
+                  </Typography>
+                </Link>
               </ListItem>
               <ListItem
                 sx={{ fontWeight: "bold", color: "#4e4e51", padding: "0px" }}
