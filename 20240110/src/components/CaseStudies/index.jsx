@@ -8,7 +8,7 @@ import stateLogo from "../../assets/images/StateLogo.png";
 function CaseStudies() {
   return (
     <>
-      <Box className="cases-cont">
+      <Box className="cases-cont" id="education">
         <Typography sx={{ marginBottom: "2%", fontSize: "h5.fontSize" }}>
           Case Studies
         </Typography>

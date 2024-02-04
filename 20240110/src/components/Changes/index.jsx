@@ -9,13 +9,7 @@ function Changes(props) {
   //   console.log(props);
   return (
     <>
-      <Box
-        className="chnages-cont"
-        // ref={window.scrollTo({
-        //   top: refren?.current?.offsetTop,
-        //   behaviour: "smooth",
-        // })}
-      >
+      <Box className="chnages-cont" id="letsmeet">
         <Typography
           sx={{ fontSize: "h4.fontSize", color: "orange", fontWeight: "bold" }}
         >
