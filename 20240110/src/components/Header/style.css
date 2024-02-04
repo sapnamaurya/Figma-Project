@@ -1,6 +1,7 @@
 .header-cont {
   height: 5vh;
   display: flex;
+
   background-color: #313131;
   border: 1px solid black;
 }
@@ -18,9 +19,11 @@
   margin: 1.4% 0px 0 4px;
 }
 @media screen and(max-width:320px) {
-  .list-cont {
-    color: white;
-
+  .header-cont {
+    width: 100vh;
+    height: 5vh;
     display: flex;
+    background-color: #313131;
+    border: 1px solid black;
   }
 }

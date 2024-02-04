@@ -20,7 +20,6 @@ function Project() {
         <Solution />
         <About />
         <Changes />
-
         <CaseStudies />
         <Apporach />
         <Steps />

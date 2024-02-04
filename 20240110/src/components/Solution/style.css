@@ -21,3 +21,17 @@
   position: absolute;
   width: 41%;
 }
+@media screen and (max-width: 320px) {
+  .figma-img {
+    height: 53vh;
+    width: 100vw;
+  }
+  .solution-cont {
+  }
+  .problem {
+  }
+  .consulting {
+  }
+  .about {
+  }
+}

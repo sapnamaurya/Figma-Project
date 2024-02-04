@@ -7,7 +7,7 @@ function Solution() {
   return (
     <>
       <Box className="solution-cont">
-        <img src={solution} alt="solution" />
+        <img src={solution} alt="solution" className="figma-img" />
         <Box sx={{ textAlign: "center", marginTop: "4%" }}>
           <Typography
             sx={{ fontSize: "h3.fontSize", fontWeight: "bold" }}
