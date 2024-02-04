@@ -3,7 +3,6 @@ import "./style.css";
 import { Box, Button, Typography } from "@mui/material";
 import logo from "../../assets/images/small logo.png";
 import SearchIcon from "@mui/icons-material/Search";
-import { useNavigate } from "react-router-dom";
 import { Link } from "react-scroll";
 function Header() {
   return (
